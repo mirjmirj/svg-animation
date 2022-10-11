@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Futura, sans-serif;
+    background: #212529;
+    color: #f8f9fa;
+}
+
+.css-example {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.custom-counter {
+    position: relative;
+    width: 5em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.custom-counter > .svgline {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.custom-counter > .svgline > .svgpath {
+    stroke: #6c757d;
+    fill: #343a40;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}

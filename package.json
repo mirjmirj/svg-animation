@@ -1,0 +1,12 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx browser-sync start --server '.' --files '.' --no-notify --no-open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
